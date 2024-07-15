@@ -1,0 +1,15 @@
+.field__label+.field__input {
+    margin-top: .25rem
+}
+
+.bank-logo {
+    position: absolute;
+    max-height: 66.6666%;
+    max-width: 66.6666%;
+    height: auto;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}

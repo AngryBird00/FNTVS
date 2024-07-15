@@ -1,0 +1,97 @@
+.chips-input__chip {
+    background-color: #ecf3ff;
+    border: 1px solid #002f6c;
+    font-size: 16px;
+    margin: .5rem;
+    padding: .5rem .6rem;
+    line-height: 1;
+    border-radius: 1.5rem;
+    display: inline
+}
+
+.chips-input__close-link {
+    color: #646769;
+    display: inline-block;
+    line-height: 0;
+    margin: 0 0 0 5px;
+    vertical-align: middle;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease
+}
+
+.chips-input__close-link:focus,
+.chips-input__close-link:hover {
+    color: #22262a
+}
+
+.chips-input__input {
+    background: transparent;
+    border: none;
+    outline: none;
+    display: inline;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+    min-width: 15rem;
+    color: #22262a
+}
+
+.chips-input-field {
+    height: auto;
+    min-height: 2.5em;
+    padding: 8px
+}
+
+.chips-input-field:focus-within {
+    border-color: #22262a
+}
+
+.chips-input-prompt {
+    margin: 0;
+    padding: .5rem
+}
+
+.chips-input-prompt,
+.legacy-invites-toggle[data-v-bb02644c] {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.legacy-invites-toggle[data-v-bb02644c] {
+    background-color: #faf9f6;
+    color: #aa4528;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%
+}
+
+.legacy-invites-toggle .caret-icon[data-v-bb02644c] {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5s ease
+}
+
+.legacy-invites-toggle.expanded .caret-icon[data-v-bb02644c] {
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+.legacy-invites-toggle[data-v-bb02644c]:active,
+.legacy-invites-toggle[data-v-bb02644c]:focus,
+.legacy-invites-toggle[data-v-bb02644c]:hover {
+    background-color: #faf9f6;
+    color: #aa4528
+}
+
+.invitation-hero[data-v-50908cc9] {
+    background-color: #edece9
+}

@@ -1,0 +1,111 @@
+.dotted-border[data-v-929c734a] {
+    background-image: linear-gradient(80deg, #22262a 15%, transparent 0);
+    background-position: top;
+    background-size: 4px 2px;
+    background-repeat: repeat-x
+}
+
+.bg-image-container[data-v-929c734a] {
+    background-repeat: no-repeat
+}
+
+@media screen and (min-width: 1200px) {
+    .bg-image-container[data-v-929c734a] {
+        background-position: 100%;
+        background-size: contain
+    }
+}
+
+@media screen and (min-width: 768px)and (max-width:1199px) {
+    .bg-image-container[data-v-929c734a] {
+        background-position: right -240px center;
+        background-size: cover
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bg-image-container[data-v-929c734a] {
+        min-height: 600px;
+        background-size: cover
+    }
+}
+
+.checkmark-icon-thin path[pid="0"][data-v-929c734a] {
+    stroke-width: 1.5
+}
+
+.checkmark-ul .checkmark-li[data-v-929c734a] {
+    font-size: 22px
+}
+
+.checkmark-ul .checkmark-li[data-v-929c734a] :last-of-type {
+    margin-bottom: 0
+}
+
+.benefits-li[data-v-929c734a]::marker {
+    color: #aa4528
+}
+
+.benefits-ul .benefits-li[data-v-929c734a]:first-child {
+    list-style-type: none
+}
+
+.dotted-border[data-v-6419d4ad] {
+    background-image: linear-gradient(80deg, #22262a 15%, transparent 0);
+    background-position: top;
+    background-size: 4px 2px;
+    background-repeat: repeat-x
+}
+
+.row[data-v-6419d4ad] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    -webkit-column-gap: 4rem;
+    -moz-column-gap: 4rem;
+    column-gap: 4rem
+}
+
+.row .col[data-v-6419d4ad] {
+    padding-top: 1rem
+}
+
+.row.light .col[data-v-6419d4ad] {
+    border-top: 1px solid #22262a
+}
+
+.row.dark .col[data-v-6419d4ad] {
+    border-top: 1px solid #909294
+}
+
+@media screen and (max-width: 767px) {
+    .row .col[data-v-6419d4ad] {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%
+    }
+}
+
+@media screen and (min-width: 768px)and (max-width:1199px) {
+    .row[data-v-6419d4ad] {
+        -webkit-column-gap: 4rem;
+        -moz-column-gap: 4rem;
+        column-gap: 4rem
+    }
+}
+
+.info-card-inverted[data-v-23c159c0] {
+    border: 1px solid #646769;
+    border-radius: 10px
+}
+
+.info-card-inverted.no-border[data-v-23c159c0] {
+    border-width: 0
+}
+
+video[data-v-f7c94f94] {
+    max-width: 100%
+}

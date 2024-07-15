@@ -1,0 +1,155 @@
+.dotted-border[data-v-dd4f9d72] {
+    background-image: linear-gradient(80deg, #22262a 15%, transparent 0);
+    background-position: top;
+    background-size: 4px 2px;
+    background-repeat: repeat-x
+}
+
+.current-stats-section[data-v-dd4f9d72] {
+    z-index: 1
+}
+
+.current-stats-section[data-v-dd4f9d72]:after {
+    content: "";
+    width: 100%;
+    height: 75%;
+    background: #faf9f6;
+    position: absolute;
+    bottom: 0;
+    z-index: -1
+}
+
+@media screen and (max-width: 767px) {
+    .current-stats-section[data-v-dd4f9d72]:after {
+        height: 25%
+    }
+}
+
+.current-stats-section.section-overlay--dark[data-v-dd4f9d72]:after {
+    background: #22262a
+}
+
+@media screen and (max-width: 1199px) {
+    .current-stats-section .current-stats-container[data-v-dd4f9d72] {
+        background-position: 50%;
+        background-repeat: repeat
+    }
+}
+
+.current-stats-section .current-stats-container .module[data-v-dd4f9d72] {
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.dotted-border {
+    background-image: linear-gradient(80deg, #22262a 15%, transparent 0);
+    background-position: top;
+    background-size: 4px 2px;
+    background-repeat: repeat-x
+}
+
+@media screen and (min-width: 1200px) {
+    .marketing-site-about {
+        padding-top: 3rem
+    }
+}
+
+.marketing-site-about video {
+    width: 100%
+}
+
+.marketing-site-about .current-stats-section {
+    margin-bottom: -6rem
+}
+
+.marketing-site-about .current-stats-section:after {
+    height: 85%;
+    top: 0
+}
+
+@media screen and (min-width: 768px) {
+    .marketing-site-about .current-stats-section:after {
+        height: 75%
+    }
+}
+
+.marketing-site-about .image-overlap-section {
+    z-index: 1;
+    background: transparent;
+    margin-bottom: -6rem;
+    position: relative
+}
+
+.marketing-site-about .image-overlap-section:after {
+    content: "";
+    width: 100%;
+    height: 75%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    z-index: -1
+}
+
+.marketing-site-about .team-filter {
+    margin: 0 auto 2rem;
+    max-width: 210px
+}
+
+.marketing-section.section--about-join-us {
+    background-image: url(https://d10cq78zmnjvsx.cloudfront.net/images/marketing-site/about_joinus.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.team-member {
+    background-color: #e5eaf0;
+    background-repeat: repeat;
+    background-size: auto;
+    border-radius: 50%;
+    display: inline-block;
+    height: 60px;
+    margin: 0;
+    max-width: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 60px
+}
+
+@media screen and (min-width: 1200px) {
+    .team-member {
+        height: 80px;
+        width: 80px
+    }
+}
+
+.team-member.team-member-background--dots {
+    background-image: url(https://d10cq78zmnjvsx.cloudfront.net/images/marketing-site/dots.png)
+}
+
+.team-member.team-member-background--lines {
+    background-image: url(https://d10cq78zmnjvsx.cloudfront.net/images/marketing-site/lines.png)
+}
+
+.team-member.team-member-background--crosshatch {
+    background-image: url(https://d10cq78zmnjvsx.cloudfront.net/images/marketing-site/crosshatch.png)
+}
+
+.team-member+.team-member__caption {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.team-member+.team-member__caption .team-member__name {
+    display: block;
+    letter-spacing: 1.5px
+}
+
+.team-member+.team-member__caption .svg-icon {
+    color: #909294
+}
+
+.team-member+.team-member__caption .svg-icon:focus,
+.team-member+.team-member__caption .svg-icon:hover {
+    color: #aa4528
+}
